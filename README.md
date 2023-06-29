@@ -1,0 +1,2 @@
+# Katas
+Practicing katas
