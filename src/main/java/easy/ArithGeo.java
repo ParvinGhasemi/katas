@@ -1,3 +1,5 @@
+package easy;
+
 public class ArithGeo {
     /*For this challenge you will determine if numbers within an array
     follow an arithmetic or geometric sequence.

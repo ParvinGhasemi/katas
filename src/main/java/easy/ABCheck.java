@@ -1,3 +1,5 @@
+package easy;
+
 import java.util.stream.IntStream;
 
 public class ABCheck {
