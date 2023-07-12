@@ -1,5 +1,7 @@
 package intermediate;
 
+import java.util.Scanner;
+
 public class VowelSquare {
 
     // For this challenge you will determine if a square of vowels exists in a matrix.
@@ -52,4 +54,6 @@ Within this matrix there is a 2x2 square of vowels starting in the second row an
         String stringC = Character.toString(c);
         return stringC.matches("[aeiouAEIOU]");
     }
+
+    
 }
