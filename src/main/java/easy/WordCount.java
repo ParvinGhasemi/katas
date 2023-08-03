@@ -15,6 +15,11 @@ public class WordCount {
         return trimmedText.equals("") || trimmedText.equals(" ") ? 0
                 : (int) Arrays.stream(trimmedText.split(" ")).count();
     }
+
+
+    public static void removeSpaces(String text) {
+        String textWithNoSpaces = text.replace(" ", "");
+    }
     
 
 

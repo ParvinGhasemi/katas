@@ -43,7 +43,6 @@ public class RightRotation {
     //second solution
     private static void rotate2(int[] arr, int steps) {
         int shortSteps = steps % arr.length;
-        int finalSteps = steps;
         int[] rotatedArr = IntStream.range(0, arr.length)
                 .map(i -> arr[(i - shortSteps + arr.length) % arr.length])
                 .toArray();
